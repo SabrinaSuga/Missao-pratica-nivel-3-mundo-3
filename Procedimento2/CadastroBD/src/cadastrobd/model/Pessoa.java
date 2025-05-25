@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 /**
  *
- * @author grego
+ * @author bina
  */
 public class Pessoa implements Serializable{
     private int id;
