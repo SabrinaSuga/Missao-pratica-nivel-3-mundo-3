@@ -23,15 +23,15 @@ public class CadastroBDTeste {
         //Instanciando a sequencia
         SequenceManager seq = new SequenceManager();
         
-        PessoaFisica pessoaIncluir = new PessoaFisica(seq.getValue("seq_Pessoa"),"Gregorio", "Rua 360, Centro", 
-        "Recife", "PE", "1212-1212","Gregorio@recife.com","98765432112");
+        PessoaFisica pessoaIncluir = new PessoaFisica(seq.getValue("seq_Pessoa"),"bina", "Rua 60, Centro", 
+        "Mg", "", "1212-1212","Sabrina@mg.com","98775432012");
         PessoaFisicaDAO pessoaPF = new PessoaFisicaDAO();
         pessoaPF.incluir(pessoaIncluir);
         
         // b.Alterar os dados da pessoa física no banco.
         // Alterando pessoa e pessoaFisica pelo id--> 3 . Mudando nome, cpf e telefone
        PessoaFisicaDAO pessoaPF1 = new PessoaFisicaDAO();
-       pessoaPF1.alterar( 3,  "12345678998",  "Emerson Gregorio",  "", "",  "", "123456789",  "");
+       pessoaPF1.alterar( 3,  "12345678998",  "Sabrina Larissa",  "", "",  "", "123456789",  "");
               
        // c.Consultar todas as pessoas físicas do banco de dados e listar no console.
        // Retorno de todas as pessoas físicas do banco de dados 
