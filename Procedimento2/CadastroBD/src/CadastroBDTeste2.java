@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author grego
+ * @author bina
  */
 public class CadastroBDTeste2 {
     
