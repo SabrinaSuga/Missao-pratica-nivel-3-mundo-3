@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  *
- * @author grego
+ * @author bina
  */
 public class PessoaJuridicaDAO {
     
